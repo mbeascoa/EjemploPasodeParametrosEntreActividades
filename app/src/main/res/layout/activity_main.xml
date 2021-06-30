@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCaja1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblText1" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtNombre" />
+
+    <TextView
+        android:id="@+id/textViewCaja2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblText2" />
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/lblText2" />
+
+    <TextView
+        android:id="@+id/textViewCaja3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblText3" />
+
+    <EditText
+        android:id="@+id/txtFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris"
+        android:ems="10"
+        android:inputType="date"
+        android:text="@string/txtFecha" />
+
+    <Button
+        android:id="@+id/btnBoton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarDatos"
+        android:text="@string/btnBoton1" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EjemploPasodeParametrosEntreActividades</string>
+    <string name="lblText1">Nombre</string>
+    <string name="lblText2">Apellido</string>
+    <string name="lblText3">Fecha Nacimiento</string>
+    <string name="txtNombre">Nombre</string>
+    <string name="txtApellido">Apellido</string>
+    <string name="txtFecha">Fecha</string>
+    <string name="btnBoton1">Mostrar Datos</string>
+    <string name="lblText4">Registro Usuario</string>
+    <string name="txtRegistroUsuario">Datos Registro</string>
+    <string name="txtRegistroUsuario2">Datos Registro</string>
+</resources>
